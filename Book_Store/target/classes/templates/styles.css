@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+.alert-message {
+	width: 400px;
+	
+	
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
